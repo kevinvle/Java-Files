@@ -1,17 +1,16 @@
 public class apples1 {
 	public static void main(String[] args) {
 		
-		System.out.println("index\tValue");
-		int bucky[] = {32, 12, 18, 54, 2};
+		int bucky [] = {21,16,86,21,3};
+		int sum = 0;
 		
-		for (int counter = 0; counter < bucky.length; counter++) {
+		for(int counter = 0; counter < bucky.length; counter++) {
 			
-			System.out.println(counter + "\t" + bucky[counter]);
-			
-			
+			sum += bucky[counter];
 		}
 		
 		
+		System.out.println("The sum of these numbers is " + sum);
 		
 	}
 	
