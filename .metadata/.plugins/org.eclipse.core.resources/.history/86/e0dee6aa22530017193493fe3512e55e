@@ -9,7 +9,7 @@ class newBucky {
 			int total = 0;
 			int grade, average, counter = 0; 
 			
-			while (counter < 10) {
+			while (counter < 10);
 				grade = input.nextInt();
 				total = total + grade;
 				counter++;

@@ -1,0 +1,11 @@
+class newBucky {
+	public static void main(String[] args) {
+		int age = 21;
+		
+		System.out.print(age > 50 ? "You are old" : "you are young");
+		
+		
+		
+		
+	}
+}
