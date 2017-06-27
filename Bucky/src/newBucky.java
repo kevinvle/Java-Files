@@ -1,23 +1,25 @@
-import java.util.Scanner;
-
-
-
-
 class newBucky {
 	public static void main(String[] args) {
-			Scanner input = new Scanner(System.in);
-			int total = 0;
-			int grade, average, counter = 0; 
+		double amount, principal = 10000;
+		double rate = .01;
+		
+		for (int day = 1; day <= 20; day++) {
+			amount = principal*Math.pow(1 + rate, day);
+			System.out.println(day +""+ amount);
 			
-			while (counter < 10) {
-				grade = input.nextInt();
-				total = total + grade;
-				counter++;
-				
-			}
-			average = total/10;
-			System.out.println("Your average is "+ average); 
-
+		
+		
+		
+		
+		
+			
+		}
+		
+		
+		
+		
+		
+		
 		
 		
 		
