@@ -1,9 +1,8 @@
 class newBucky {
 	public static void main(String[] args) {
-		System.out.println(Math.sqrt(2983492));
+		System.out.println(Math.ceil(7.2));
 		
 		
 	
 	}
-	
 	}
